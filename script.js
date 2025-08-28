@@ -724,8 +724,15 @@ function createTextRings() {
 
     const initialRotationX = i / numRings * (Math.PI / 1);
     ringGroup.rotation.x = initialRotationX;
-    scene.add(ringGroup);
-    window.textRings.push(ringGroup);
+
+    // 🔽 tambahkan ini
+    if (i === 3) {  
+    ringGroup.rotation.y = Math.PI;  // membalik cincin ke-4 pada sumbu Y
+  }
+
+scene.add(ringGroup);
+window.textRings.push(ringGroup);
+
   }
 }
 
