@@ -93,7 +93,7 @@ const numGroups = heartImages.length;
 
 const maxDensity = 50000;
 
-const minDensity = 5000;
+const minDensity = 4000;
 
 const maxGroupsForScale = 14;
 
@@ -588,9 +588,9 @@ scene.add(planet);
 //Ganti Deskripsi Planet
 const ringTexts = [
   'Galaxy of love for Delia Andini',//untuk deskripsi planet layer 1
-  "Lopiuuu",//untuk deskripsi planet layer 2
-  "♡Happy Birthday Sayang♡",//untuk deskripsi planet layer 3
-  "02/10/2025",//untuk deskripsi planet layer 4
+  "everyday is ur day, but today more spesial",//untuk deskripsi planet layer 2
+  "special for most perfect woman",//untuk deskripsi planet layer 3
+  "on this day, a queen was born",//untuk deskripsi planet layer 4
   ...(window.dataCCD && window.dataCCD.data.ringTexts ? window.dataCCD.data.ringTexts : [])
 ];
 
