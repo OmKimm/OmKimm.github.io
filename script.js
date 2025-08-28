@@ -588,8 +588,8 @@ scene.add(planet);
 //Ganti Deskripsi Planet
 const ringTexts = [
   'Galaxy of love for Delia Andini',//untuk deskripsi planet layer 1
-  "Lopiuuuuu",//untuk deskripsi planet layer 2
-  "♡Happy Birthday Sayangg♡",//untuk deskripsi planet layer 3
+  "Lopiuuu",//untuk deskripsi planet layer 2
+  "♡Happy Birthday Sayang♡",//untuk deskripsi planet layer 3
   "02/10/2025",//untuk deskripsi planet layer 4
   ...(window.dataCCD && window.dataCCD.data.ringTexts ? window.dataCCD.data.ringTexts : [])
 ];
@@ -1067,7 +1067,7 @@ function createHintText() {
   canvas.width = canvas.height = canvasSize;
   const context = canvas.getContext('2d');
   const fontSize = 50;
-  const text = 'Happy Birthday♡!';
+  const text = 'Happy Birthday♡';
   context.font = `bold ${fontSize}px Arial, sans-serif`;
   context.textAlign = 'center';
   context.textBaseline = 'middle';
