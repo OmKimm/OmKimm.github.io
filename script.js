@@ -19,7 +19,7 @@ const controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
 controls.autoRotate = true;
 controls.autoRotateSpeed = 0.5;
-controls.enabled = false;
+controls.enabled = true;
 controls.target.set(0, 0, 0);
 controls.enablePan = false;
 controls.minDistance = 15;
@@ -730,8 +730,8 @@ function createTextRings() {
     ringGroup.rotation.y = Math.PI;  // membalik cincin ke-4 pada sumbu Y
   }
 
-scene.add(ringGroup);
-window.textRings.push(ringGroup);
+    scene.add(ringGroup);
+    window.textRings.push(ringGroup);
 
   }
 }
