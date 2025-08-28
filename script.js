@@ -91,9 +91,9 @@ const numGroups = heartImages.length;
 
 
 
-const maxDensity = 50000;
+const maxDensity = 20000;
 
-const minDensity = 2000;
+const minDensity = 1000;
 
 const maxGroupsForScale = 14;
 
