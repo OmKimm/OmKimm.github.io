@@ -19,7 +19,7 @@ const controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
 controls.autoRotate = true;
 controls.autoRotateSpeed = 0.5;
-controls.enabled = true;
+controls.enabled = false;
 controls.target.set(0, 0, 0);
 controls.enablePan = false;
 controls.minDistance = 15;
@@ -724,12 +724,6 @@ function createTextRings() {
 
     const initialRotationX = i / numRings * (Math.PI / 1);
     ringGroup.rotation.x = initialRotationX;
-
-    // 🔽 tambahkan ini
-    if (i === 3) {  
-    ringGroup.rotation.y = Math.PI;  // membalik cincin ke-4 pada sumbu Y
-  }
-
     scene.add(ringGroup);
     window.textRings.push(ringGroup);
 
