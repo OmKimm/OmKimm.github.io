@@ -79,7 +79,7 @@ const galaxyParameters = {
   outsideColor: new THREE.Color(0x48b8b8),
 };
 
-const defaultHeartImages = Array.from({ length: 25 }, (_, i) => `images/img${i + 1}.jpg`);
+const defaultHeartImages = Array.from({ length: 40 }, (_, i) => `images/img${i + 1}.jpg`);
 
 const heartImages = [
   ...(window.dataCCD?.data?.heartImages || []),
@@ -93,7 +93,7 @@ const numGroups = heartImages.length;
 
 const maxDensity = 50000;
 
-const minDensity = 4000;
+const minDensity = 2500;
 
 const maxGroupsForScale = 14;
 
@@ -789,7 +789,7 @@ let galaxyAudio = null;
 
 function preloadGalaxyAudio() {
   const audioSources = [
-   "https://www.youtube.com/watch?v=meKfXrPSRGs&list=RDmeKfXrPSRGs&start_radio=1"
+   "https://www.youtube.com/watch?v=-9IoprWKWNY&list=RD-9IoprWKWNY&start_radio=1"
   ];
 
   const randomIndex = Math.floor(Math.random() * audioSources.length);
