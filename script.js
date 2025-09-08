@@ -588,9 +588,9 @@ scene.add(planet);
 //Ganti Deskripsi Planet
 const ringTexts = [
   'Galaxy of love for Delia Andini',//untuk deskripsi planet layer 1
-  "everyday is ur day, but today more spesial",//untuk deskripsi planet layer 2
-  "special for most perfect woman",//untuk deskripsi planet layer 3
-  "on this day, a queen was born",//untuk deskripsi planet layer 4
+  "every day is ur day, but today more special",//untuk deskripsi planet layer 2
+  "hope ur special day is as incredible as u are",//untuk deskripsi planet layer 3
+  "may this year bring u everything u've been dreaming of",//untuk deskripsi planet layer 4
   ...(window.dataCCD && window.dataCCD.data.ringTexts ? window.dataCCD.data.ringTexts : [])
 ];
 
@@ -789,7 +789,7 @@ let galaxyAudio = null;
 
 function preloadGalaxyAudio() {
   const audioSources = [
-   "https://youtu.be/TyqvNGef774?si=QnRI0xmXH2RYS-Bw"
+   "https://youtu.be/hQGZGRdH0F8?si=mrwn5DvqZkPUr-QI"
   ];
 
   const randomIndex = Math.floor(Math.random() * audioSources.length);
